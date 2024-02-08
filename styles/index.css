@@ -1,0 +1,43 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(2, 107, 91);
+    margin: 20px;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 100%;
+    position: relative;
+}
+
+.inside-box {
+    width: 20px;
+    height: 20px;
+    background-color: beige;
+    margin: 5px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    border-radius: 8px;
+    flex-grow: 3;
+    
+}
+.box {
+    height: 150px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    align-items: center;
+    background-color: brown;
+    flex-grow: 2;
+    border-radius: 8px;
+
+}
+
